@@ -1,8 +1,0 @@
-cd vulnerable-backend
-npm install            # gera o package-lock.json
-git init
-git add .
-git commit -m "feat: vulnerable backend + security pipeline"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/vulnerable-backend.git
-git push -u origin main
